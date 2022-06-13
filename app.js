@@ -5,7 +5,7 @@ const h = (hacker.height = s.height);
 const ctx = hacker.getContext("2d");
 const p = Array(Math.floor(w / 10) + 1).fill(0);
 const random = (items) => items[Math.floor(Math.random() * items.length)];
-const hex = "0123456789ABCDEFG".split("");
+const hex = "DoT-sEr!dOT-SeR".split("");
 
 setInterval(() => {
     ctx.fillStyle = "rgba(0, 0, 0, .05)";
