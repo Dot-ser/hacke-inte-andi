@@ -2,7 +2,7 @@
 const s = window.screen;
 const w = (hacker.width = s.width);
 const h = (hacker.height = s.height);
-const ctx = hacker.getContext("2d");
+const ctx = hacker.getContext("3d");
 const p = Array(Math.floor(w / 10) + 1).fill(0);
 const random = (items) => items[Math.floor(Math.random() * items.length)];
 const hex = "DoT-sEr!dOT-SeR".split("");
